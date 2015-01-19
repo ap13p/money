@@ -1,0 +1,22 @@
+<template name="table_data">
+<table class="table table-striped table-bordered table-hover">
+<thead>
+  <tr>
+    <th>Tanggal</th>
+    <th>Jumlah</th>
+    <th>Keterangan</th>
+    <th>Menu</th>
+  </tr>
+</thead>
+<tbody>
+  {{#each data}}
+  <tr>
+    <td>{{>timeago tanggal}}</td>
+    <td align="right">Rp. {{money jumlah}}</td>
+    <td>{{keterangan}}</td>
+    <td>Menu</td>
+  </tr>
+  {{/each}}
+</tbody>
+</table>
+</template>

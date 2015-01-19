@@ -1,0 +1,11 @@
+Just an example of meteor application
+
+Using this meteor packages
+
+accounts-password   1.0.5  Password support for accounts
+accounts-ui         1.1.4  Simple templates to add login widgets to an app
+cwohlman:pickadate  1.0.0  The mobile-friendly, responsive, and lightweight jQuery date & time input picker.
+meteor-platform     1.2.1  Include a standard set of Meteor packages in your app
+numeral:numeral     1.5.3  Numeral.js (official) - formatting and manipulating numbers.
+twbs:bootstrap      3.3.1_2  Bootstrap (official): the most popular HTML/CSS/JS framework for responsive, mobile first projects
+wollardj:timeago    1.0.1  Meteor wrapper for the momentjs fromNow() method.
